@@ -2,18 +2,20 @@
   "name": "wid-card",
   "version": "1.0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Thomas Hourlier <hourliert@gmail.com>"
   ],
   "description": "This element displays a material design card.",
   "keywords": [
     "web-component",
     "web-components",
     "polymer",
-    "seed"
+    "card",
+    "material",
+    "container"
   ],
   "main": "wid-card.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/wid-card/",
+  "license": "MIT",
+  "homepage": "https://github.com/wid-la/wid-card",
   "ignore": [
     "/.*",
     "/test/",
@@ -30,6 +32,9 @@
     "gulp-bg": "0.0.5",
     "polyserve": "^0.4.0",
     "ps-node": "0.0.4",
-    "web-component-tester": "^3.1.4"
+    "web-component-tester": "^3.1.4",
+    "gulp-bump": "^0.3.1",
+    "gulp-git": "^1.2.4",
+    "gulp-tag-version": "^1.2.1"
   }
 }

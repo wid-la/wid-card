@@ -2,17 +2,20 @@
   "name": "wid-card",
   "version": "1.0.1",
   "authors": [
-    "Anonymous <anonymous@example.com>"
+    "Thomas Hourlier <hourliert@gmail.com>"
   ],
   "description": "This element displays a material design card.",
   "keywords": [
     "web-component",
+    "web-components",
     "polymer",
-    "seed"
+    "card",
+    "material",
+    "container"
   ],
   "main": "wid-card.html",
-  "license": "http://polymer.github.io/LICENSE.txt",
-  "homepage": "https://github.com/<USERNAME>/seed-element/",
+  "license": "MIT",
+  "homepage": "https://github.com/wid-la/wid-card",
   "ignore": [
     "/.*",
     "/test/",
