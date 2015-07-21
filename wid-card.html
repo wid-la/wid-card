@@ -44,9 +44,10 @@ Example:
       cursor: pointer;
     }
 
-    paper-material {
+    #container {
       height: var(--wid-card-height, 300px);
       margin: 10px;
+      background-color: var(--wid-card-background-color, white);
     }
 
   </style>
@@ -106,7 +107,7 @@ Example:
      */
 
     /**
-     * On tap, we fire an event. 
+     * On tap, we fire an event.
      */
     _onTap: function () {
       this.fire('card-tap');
